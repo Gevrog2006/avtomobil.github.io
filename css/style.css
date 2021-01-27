@@ -1,0 +1,201 @@
+body {
+    background-color: rgb(27, 31, 34, 0.85);
+}
+.h1 {
+    background-color: black;
+    background-size: auto;
+    text-align: center;
+    color: blanchedalmond;
+    margin-top: 600px;
+}
+.maindiv {
+    width: 70%;
+    height: 410px;
+    border: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px white;
+    animation:slider 9s infinite linear;
+}
+@keyframes slider{
+    0%{background-image: url('../img/ass.jpg.jpg');}
+    35%{background-image: url('../img/ass2.jpg');}
+    55%{background-image: url('../img/ass3.jpg');}
+    80%{background-image: url('../img/ass4.jpg');}
+    100%{background-image: url('../img/ass5.jpg');}
+}
+.maindiv1 {
+    width: 674px;
+    height: 328px;
+    border: 1px white solid;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    
+}
+.h2 {
+    font-size: 25px;
+    background-color: black;
+    color: rgb(128, 152, 179);
+    position: static;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+}
+.h2:hover {
+    font-size: 30px;
+}
+.maindiv2 {
+    width: 674px;
+    height: 328px;
+    border: 1px white solid;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    margin-top: 100px;
+}
+.maindiv3 {
+    width: 674px;
+    height: 328px;
+    border: 1px white solid;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    margin-top: 100px;
+}
+.maindiv4 {
+    width: 674px;
+    height: 328px;
+    border: 1px white solid;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    margin-top: 100px;
+}
+.maindiv5 {
+    width: 674px;
+    height: 328px;
+    border: 1px white solid;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    margin-top: 100px;
+}
+.maindiv6 {
+    width: 674px;
+    height: 328px;
+    border: 1px white solid;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    margin-top: 100px;
+}
+.maindiv7 {
+    width: 674px;
+    height: 328px;
+    border: 1px white solid;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    margin-top: 100px;
+}
+.maindiv8 {
+    width: 674px;
+    height: 328px;
+    border: 1px white solid;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    margin-top: 100px;
+}
+.maindiv9 {
+    width: 674px;
+    height: 328px;
+    border: 1px white solid;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    margin-top: 100px;
+}
+.maindiv10 {
+    width: 674px;
+    height: 328px;
+    border: 1px white solid;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    margin-top: 100px;
+}
+.maindiv11 {
+    width: 674px;
+    height: 328px;
+    border: 1px white solid;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    margin-top: 100px;
+}
+.h3 {
+    margin-top: 200px;
+    margin-left: 60px;
+    color: burlywood;
+    font-size: 20px;
+}
+.arrowUp {
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(130deg, #2d2722 50%, #398a99 50%);
+    -webkit-background-size: 300%;
+    background-size: 300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 50px;
+    border-radius: 5px;
+    transition: .5s
+}
+.arrowUp:hover{
+    background-position: 100% 0;
+}
+.pill-nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+  
+  /* Change the color of links on mouse-over */
+  .pill-nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .pill-nav a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+ 
